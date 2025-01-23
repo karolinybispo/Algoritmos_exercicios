@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class IdadeEmAnos {
     
-    // In this algoritmo, read the age in years, mouth and days. After write the age just in numbers. Consider the year with 365 days and mouth with 30 days. 
+    // In this algorithm, read the age in years, mouths, and days. 
+    //Then write the age in days. Consider a year as 365 days and a mouth as 30 days. 
     
     public static void main(String[] args) {
     Scanner leia = new Scanner(System.in);
@@ -24,6 +25,9 @@ public class IdadeEmAnos {
 
     //informing age in days
     System.out.println("sua idade em dias: " + idadeEmDias);
+
+    //close the Scanner
+    leia.close();
 }
 
 }
